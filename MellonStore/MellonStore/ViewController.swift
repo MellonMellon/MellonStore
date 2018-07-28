@@ -12,11 +12,6 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    /*CoreDataStack.modelName = "Mellon"
-    CoreDataStack.setup() {
-      print("coredata is ready")
-    }*/
-    // Do any additional setup after loading the view, typically from a nib.
   }
 
   override func didReceiveMemoryWarning() {

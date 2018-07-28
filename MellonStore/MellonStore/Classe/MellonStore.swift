@@ -218,6 +218,8 @@ infix operator <<: FetchPrecedence
 		}
 	}
 	
+  //MARK: - Store Manipulation
+  
 	static func switchTo(storeIdentifier: String, withExtension extensionName: String = "momd", completion: @escaping CoreDataManagerCompletion) {
 		let storeName = "\(storeIdentifier)"
 		MellonStore.default = try! MellonStore(storeName: storeName, withExtension: extensionName, completion: completion)
@@ -375,4 +377,14 @@ public func << <A: NSManagedObject>(left: NSManagedObjectContext, right: A) -> A
 		object = left.object(with: right.objectID) as! A
 	}
 	return object
+}
+
+extension NSManagedObjectContext {
+  public func fetch<A: NSManagedObject>(entity: A) -> A {
+    var object: A!
+    self.performAndWait {
+      object = self.object(with: entity.objectID) as! A
+    }
+    return object
+  }
 }

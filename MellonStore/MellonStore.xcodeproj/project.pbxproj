@@ -12,7 +12,7 @@
 		CA57762F210CB90B0017A871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA57762D210CB90B0017A871 /* Main.storyboard */; };
 		CA577631210CB90D0017A871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA577630210CB90D0017A871 /* Assets.xcassets */; };
 		CA577634210CB90D0017A871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA577632210CB90D0017A871 /* LaunchScreen.storyboard */; };
-		CA57763F210CB90D0017A871 /* MellonStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57763E210CB90D0017A871 /* MellonStoreTests.swift */; };
+		CA57763F210CB90D0017A871 /* MellonStoreCRUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57763E210CB90D0017A871 /* MellonStoreCRUDTests.swift */; };
 		CA577650210CB96B0017A871 /* MellonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57764A210CB96B0017A871 /* MellonStore.swift */; };
 		CA577651210CB96B0017A871 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57764B210CB96B0017A871 /* Query.swift */; };
 		CA577653210CB96C0017A871 /* Query+Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57764D210CB96B0017A871 /* Query+Logger.swift */; };
@@ -42,7 +42,7 @@
 		CA577633210CB90D0017A871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA577635210CB90D0017A871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA57763A210CB90D0017A871 /* MellonStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MellonStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA57763E210CB90D0017A871 /* MellonStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MellonStoreTests.swift; sourceTree = "<group>"; };
+		CA57763E210CB90D0017A871 /* MellonStoreCRUDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MellonStoreCRUDTests.swift; sourceTree = "<group>"; };
 		CA577640210CB90D0017A871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA57764A210CB96B0017A871 /* MellonStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MellonStore.swift; sourceTree = "<group>"; };
 		CA57764B210CB96B0017A871 /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		CA57763D210CB90D0017A871 /* MellonStoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				CA57763E210CB90D0017A871 /* MellonStoreTests.swift */,
+				CA57763E210CB90D0017A871 /* MellonStoreCRUDTests.swift */,
 				CA577640210CB90D0017A871 /* Info.plist */,
 			);
 			path = MellonStoreTests;
@@ -244,7 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA57765D210CC3F10017A871 /* Mellon.xcdatamodeld in Sources */,
-				CA57763F210CB90D0017A871 /* MellonStoreTests.swift in Sources */,
+				CA57763F210CB90D0017A871 /* MellonStoreCRUDTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

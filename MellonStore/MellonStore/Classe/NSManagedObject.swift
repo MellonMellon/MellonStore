@@ -10,14 +10,7 @@ import Foundation
 import CoreData
 
 public extension NSManagedObject {
-
-	/*var idNumber: NSNumber {
-		guard let id = GenericUtils.getIdNumber(for: self) else {
-			return 0
-		}
-		return id
-	}*/
-
+  
 	/// Returns the entity class name as `String`
 	///
 	/// :return String

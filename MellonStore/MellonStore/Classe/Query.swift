@@ -226,11 +226,38 @@ public class Query<A: NSManagedObject> {
   /// - parameter key: the entity's property name
   /// - parameter containedIn: the values to match againsts
   /// :return: self
+  public func with(_ key: String, containedIn objects: [String]) -> Self
+  {
+    predicates.append(
+      NSPredicate(
+        format: "\(key) IN %@",
+        argumentArray: [objects]))
+    return self
+  }
+  
+  /// restrict the results to objects where :key's value is contained in :objects
+  ///
+  /// - parameter key: the entity's property name
+  /// - parameter containedIn: the values to match againsts
+  /// :return: self
   public func with(_ key: String, containedIn objects: [AnyObject]) -> Self
   {
     predicates.append(
       NSPredicate(
         format: "\(key) IN %@",
+        argumentArray: [objects]))
+    return self
+  }
+  
+  /// restrict the results to objects where :key's value is not contained in :objects
+  ///
+  /// - parameter key: the entity's property name
+  /// - parameter notContainedIn: the values to match againsts
+  /// :return: self
+  public func with(_ key: String, notContainedIn objects: [String]) -> Self {
+    predicates.append(
+      NSPredicate(
+        format: "NOT (\(key) IN %@)",
         argumentArray: [objects]))
     return self
   }

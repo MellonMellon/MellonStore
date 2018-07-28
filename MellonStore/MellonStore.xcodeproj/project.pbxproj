@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA57762A210CB90A0017A871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA577629210CB90A0017A871 /* AppDelegate.swift */; };
+		CA57762C210CB90B0017A871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57762B210CB90B0017A871 /* ViewController.swift */; };
+		CA57762F210CB90B0017A871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA57762D210CB90B0017A871 /* Main.storyboard */; };
+		CA577631210CB90D0017A871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA577630210CB90D0017A871 /* Assets.xcassets */; };
+		CA577634210CB90D0017A871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA577632210CB90D0017A871 /* LaunchScreen.storyboard */; };
+		CA57763F210CB90D0017A871 /* MellonStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57763E210CB90D0017A871 /* MellonStoreTests.swift */; };
+		CA577650210CB96B0017A871 /* MellonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57764A210CB96B0017A871 /* MellonStore.swift */; };
+		CA577651210CB96B0017A871 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57764B210CB96B0017A871 /* Query.swift */; };
+		CA577653210CB96C0017A871 /* Query+Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57764D210CB96B0017A871 /* Query+Logger.swift */; };
+		CA577654210CB96C0017A871 /* NSQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57764E210CB96B0017A871 /* NSQuery.swift */; };
+		CA577655210CB96C0017A871 /* NSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57764F210CB96B0017A871 /* NSManagedObject.swift */; };
+		CA577658210CBFAE0017A871 /* Mellon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA577656210CBFAE0017A871 /* Mellon.xcdatamodeld */; };
+		CA57765B210CC0320017A871 /* Fruit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA577659210CC0320017A871 /* Fruit+CoreDataClass.swift */; };
+		CA57765D210CC3F10017A871 /* Mellon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA577656210CBFAE0017A871 /* Mellon.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA57763B210CB90D0017A871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA57761E210CB90A0017A871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA577625210CB90A0017A871;
+			remoteInfo = MellonStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA577626210CB90A0017A871 /* MellonStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MellonStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA577629210CB90A0017A871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA57762B210CB90B0017A871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA57762E210CB90B0017A871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA577630210CB90D0017A871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA577633210CB90D0017A871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA577635210CB90D0017A871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA57763A210CB90D0017A871 /* MellonStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MellonStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA57763E210CB90D0017A871 /* MellonStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MellonStoreTests.swift; sourceTree = "<group>"; };
+		CA577640210CB90D0017A871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA57764A210CB96B0017A871 /* MellonStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MellonStore.swift; sourceTree = "<group>"; };
+		CA57764B210CB96B0017A871 /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		CA57764D210CB96B0017A871 /* Query+Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Query+Logger.swift"; sourceTree = "<group>"; };
+		CA57764E210CB96B0017A871 /* NSQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSQuery.swift; sourceTree = "<group>"; };
+		CA57764F210CB96B0017A871 /* NSManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObject.swift; sourceTree = "<group>"; };
+		CA577657210CBFAE0017A871 /* Mellon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mellon.xcdatamodel; sourceTree = "<group>"; };
+		CA577659210CC0320017A871 /* Fruit+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fruit+CoreDataClass.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA577623210CB90A0017A871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA577637210CB90D0017A871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA57761D210CB90A0017A871 = {
+			isa = PBXGroup;
+			children = (
+				CA577628210CB90A0017A871 /* MellonStore */,
+				CA57763D210CB90D0017A871 /* MellonStoreTests */,
+				CA577627210CB90A0017A871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA577627210CB90A0017A871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA577626210CB90A0017A871 /* MellonStore.app */,
+				CA57763A210CB90D0017A871 /* MellonStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA577628210CB90A0017A871 /* MellonStore */ = {
+			isa = PBXGroup;
+			children = (
+				CA577649210CB93A0017A871 /* Classe */,
+				CA577629210CB90A0017A871 /* AppDelegate.swift */,
+				CA57762B210CB90B0017A871 /* ViewController.swift */,
+				CA57762D210CB90B0017A871 /* Main.storyboard */,
+				CA577630210CB90D0017A871 /* Assets.xcassets */,
+				CA577632210CB90D0017A871 /* LaunchScreen.storyboard */,
+				CA577635210CB90D0017A871 /* Info.plist */,
+				CA577659210CC0320017A871 /* Fruit+CoreDataClass.swift */,
+				CA577656210CBFAE0017A871 /* Mellon.xcdatamodeld */,
+			);
+			path = MellonStore;
+			sourceTree = "<group>";
+		};
+		CA57763D210CB90D0017A871 /* MellonStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA57763E210CB90D0017A871 /* MellonStoreTests.swift */,
+				CA577640210CB90D0017A871 /* Info.plist */,
+			);
+			path = MellonStoreTests;
+			sourceTree = "<group>";
+		};
+		CA577649210CB93A0017A871 /* Classe */ = {
+			isa = PBXGroup;
+			children = (
+				CA57764A210CB96B0017A871 /* MellonStore.swift */,
+				CA57764F210CB96B0017A871 /* NSManagedObject.swift */,
+				CA57764E210CB96B0017A871 /* NSQuery.swift */,
+				CA57764B210CB96B0017A871 /* Query.swift */,
+				CA57764D210CB96B0017A871 /* Query+Logger.swift */,
+			);
+			path = Classe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA577625210CB90A0017A871 /* MellonStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA577643210CB90D0017A871 /* Build configuration list for PBXNativeTarget "MellonStore" */;
+			buildPhases = (
+				CA577622210CB90A0017A871 /* Sources */,
+				CA577623210CB90A0017A871 /* Frameworks */,
+				CA577624210CB90A0017A871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MellonStore;
+			productName = MellonStore;
+			productReference = CA577626210CB90A0017A871 /* MellonStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA577639210CB90D0017A871 /* MellonStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA577646210CB90D0017A871 /* Build configuration list for PBXNativeTarget "MellonStoreTests" */;
+			buildPhases = (
+				CA577636210CB90D0017A871 /* Sources */,
+				CA577637210CB90D0017A871 /* Frameworks */,
+				CA577638210CB90D0017A871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA57763C210CB90D0017A871 /* PBXTargetDependency */,
+			);
+			name = MellonStoreTests;
+			productName = MellonStoreTests;
+			productReference = CA57763A210CB90D0017A871 /* MellonStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA57761E210CB90A0017A871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mellonmellon;
+				TargetAttributes = {
+					CA577625210CB90A0017A871 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CA577639210CB90D0017A871 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CA577625210CB90A0017A871;
+					};
+				};
+			};
+			buildConfigurationList = CA577621210CB90A0017A871 /* Build configuration list for PBXProject "MellonStore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA57761D210CB90A0017A871;
+			productRefGroup = CA577627210CB90A0017A871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA577625210CB90A0017A871 /* MellonStore */,
+				CA577639210CB90D0017A871 /* MellonStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA577624210CB90A0017A871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA577634210CB90D0017A871 /* LaunchScreen.storyboard in Resources */,
+				CA577631210CB90D0017A871 /* Assets.xcassets in Resources */,
+				CA57762F210CB90B0017A871 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA577638210CB90D0017A871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA577622210CB90A0017A871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA577653210CB96C0017A871 /* Query+Logger.swift in Sources */,
+				CA57765B210CC0320017A871 /* Fruit+CoreDataClass.swift in Sources */,
+				CA577651210CB96B0017A871 /* Query.swift in Sources */,
+				CA577658210CBFAE0017A871 /* Mellon.xcdatamodeld in Sources */,
+				CA577650210CB96B0017A871 /* MellonStore.swift in Sources */,
+				CA57762C210CB90B0017A871 /* ViewController.swift in Sources */,
+				CA577655210CB96C0017A871 /* NSManagedObject.swift in Sources */,
+				CA577654210CB96C0017A871 /* NSQuery.swift in Sources */,
+				CA57762A210CB90A0017A871 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA577636210CB90D0017A871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA57765D210CC3F10017A871 /* Mellon.xcdatamodeld in Sources */,
+				CA57763F210CB90D0017A871 /* MellonStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA57763C210CB90D0017A871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA577625210CB90A0017A871 /* MellonStore */;
+			targetProxy = CA57763B210CB90D0017A871 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA57762D210CB90B0017A871 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA57762E210CB90B0017A871 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA577632210CB90D0017A871 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA577633210CB90D0017A871 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA577641210CB90D0017A871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA577642210CB90D0017A871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA577644210CB90D0017A871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2G2L39D56;
+				INFOPLIST_FILE = MellonStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.mellonmellon.MellonStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA577645210CB90D0017A871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2G2L39D56;
+				INFOPLIST_FILE = MellonStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.mellonmellon.MellonStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA577647210CB90D0017A871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2G2L39D56;
+				INFOPLIST_FILE = MellonStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.mellonmellon.MellonStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MellonStore.app/MellonStore";
+			};
+			name = Debug;
+		};
+		CA577648210CB90D0017A871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2G2L39D56;
+				INFOPLIST_FILE = MellonStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.mellonmellon.MellonStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MellonStore.app/MellonStore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA577621210CB90A0017A871 /* Build configuration list for PBXProject "MellonStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA577641210CB90D0017A871 /* Debug */,
+				CA577642210CB90D0017A871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA577643210CB90D0017A871 /* Build configuration list for PBXNativeTarget "MellonStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA577644210CB90D0017A871 /* Debug */,
+				CA577645210CB90D0017A871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA577646210CB90D0017A871 /* Build configuration list for PBXNativeTarget "MellonStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA577647210CB90D0017A871 /* Debug */,
+				CA577648210CB90D0017A871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA577656210CBFAE0017A871 /* Mellon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA577657210CBFAE0017A871 /* Mellon.xcdatamodel */,
+			);
+			currentVersion = CA577657210CBFAE0017A871 /* Mellon.xcdatamodel */;
+			path = Mellon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA57761E210CB90A0017A871 /* Project object */;
+}

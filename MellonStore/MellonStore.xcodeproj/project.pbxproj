@@ -21,6 +21,8 @@
 		CA577658210CBFAE0017A871 /* Mellon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA577656210CBFAE0017A871 /* Mellon.xcdatamodeld */; };
 		CA57765B210CC0320017A871 /* Fruit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA577659210CC0320017A871 /* Fruit+CoreDataClass.swift */; };
 		CA57765D210CC3F10017A871 /* Mellon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA577656210CBFAE0017A871 /* Mellon.xcdatamodeld */; };
+		CA57765F210DC2D70017A871 /* MellonStoreManipulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57765E210DC2D70017A871 /* MellonStoreManipulationTests.swift */; };
+		CA577661210DC3950017A871 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA577660210DC3950017A871 /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		CA57764F210CB96B0017A871 /* NSManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObject.swift; sourceTree = "<group>"; };
 		CA577657210CBFAE0017A871 /* Mellon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mellon.xcdatamodel; sourceTree = "<group>"; };
 		CA577659210CC0320017A871 /* Fruit+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fruit+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CA57765E210DC2D70017A871 /* MellonStoreManipulationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MellonStoreManipulationTests.swift; sourceTree = "<group>"; };
+		CA577660210DC3950017A871 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 			children = (
 				CA57763E210CB90D0017A871 /* MellonStoreCRUDTests.swift */,
 				CA577640210CB90D0017A871 /* Info.plist */,
+				CA57765E210DC2D70017A871 /* MellonStoreManipulationTests.swift */,
+				CA577660210DC3950017A871 /* Util.swift */,
 			);
 			path = MellonStoreTests;
 			sourceTree = "<group>";
@@ -245,6 +251,8 @@
 			files = (
 				CA57765D210CC3F10017A871 /* Mellon.xcdatamodeld in Sources */,
 				CA57763F210CB90D0017A871 /* MellonStoreCRUDTests.swift in Sources */,
+				CA57765F210DC2D70017A871 /* MellonStoreManipulationTests.swift in Sources */,
+				CA577661210DC3950017A871 /* Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

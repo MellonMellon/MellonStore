@@ -238,7 +238,7 @@ infix operator <<: FetchPrecedence
 		let url = documentsDirectoryURL.appendingPathComponent(storeName)
 
 		if !fileManager.fileExists(atPath: (url.path)) {
-			let seededDataUrl =  documentsDirectoryURL.appendingPathComponent(self.storeName + ".sqlite")
+			let seededDataUrl = documentsDirectoryURL.appendingPathComponent(self.storeName + ".sqlite")
 			let seededDataUrl2 = documentsDirectoryURL.appendingPathComponent(self.storeName + ".sqlite-shm")
 			let seededDataUrl3 = documentsDirectoryURL.appendingPathComponent(self.storeName + ".sqlite-wal")
 
@@ -247,12 +247,13 @@ infix operator <<: FetchPrecedence
 			try fileManager.copyItem(at: seededDataUrl3, to: documentsDirectoryURL.appendingPathComponent(storeName + ".sqlite-wal"))
 		}
 	}
-	func deleteStore(for storeIdentifier: String) throws {
+  
+	static func deleteStore(for storeIdentifier: String) throws {
     let storeName = "\(storeIdentifier)"
 		let fileManager = FileManager.default
 		let documentsDirectoryURL = fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0]
 
-		let seededDataUrl =  documentsDirectoryURL.appendingPathComponent(storeName + ".sqlite")
+		let seededDataUrl = documentsDirectoryURL.appendingPathComponent(storeName + ".sqlite")
 		let seededDataUrl2 = documentsDirectoryURL.appendingPathComponent(storeName + ".sqlite-shm")
 		let seededDataUrl3 = documentsDirectoryURL.appendingPathComponent(storeName + ".sqlite-wal")
 

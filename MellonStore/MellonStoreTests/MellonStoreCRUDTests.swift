@@ -24,12 +24,12 @@ class MellonStoreCRUDTests: XCTestCase {
     super.tearDown()
   }
   
-  private func create(withName name: String, in context: NSManagedObjectContext) -> String{
+  /*private func create(withName name: String, in context: NSManagedObjectContext) -> String{
      do {
       let uuidString = UUID().uuidString
       let fruit = try Fruit.create(in: context)
       fruit.id = uuidString
-      fruit.name = "mellon"
+      fruit.name = name
       return uuidString
      } catch let error {
       print(error.localizedDescription)
@@ -42,7 +42,7 @@ class MellonStoreCRUDTests: XCTestCase {
     let array = ["Banana", "Cherry", "Apple", "Blackberry", "Blueberry", "Coconut", "Raspberry", "Strawberry"]
     let randomIndex = Int(arc4random_uniform(UInt32(array.count)))
     return array[randomIndex]
-  }
+  }*/
   
   func testCRUD() {
     var ids: [String] = []

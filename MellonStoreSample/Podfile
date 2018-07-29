@@ -7,5 +7,5 @@ target 'MellonStoreSample' do
   use_frameworks!
 
   # Pods for MellonStoreSample
-  pod 'MellonStore', '~> 0.0.1'
+  pod 'MellonStore', '~> 0.0.2'
 end

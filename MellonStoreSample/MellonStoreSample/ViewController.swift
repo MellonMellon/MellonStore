@@ -55,6 +55,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     return true
   }
   
+  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    return 50
+  }
+  
   func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
     if (editingStyle == UITableViewCellEditingStyle.delete) {
       if let fruit = fetchResultController.object(at: indexPath) as? Fruit {

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MellonStore"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "100% swift. thread safe, easy writing and reading operation."
 
   # This description is used to generate tags and improve search results.

@@ -36,7 +36,9 @@ infix operator <<: FetchPrecedence
 
 	fileprivate lazy var managedObjectModel: NSManagedObjectModel? = {
 		// Fetch Model URL
-    guard let modelURL = Bundle.main.url(forResource: MellonStore.modelName, withExtension: self.extensionName) else {
+    print("modelName: \(MellonStore.modelName)")
+    
+    guard let modelURL = Bundle.init(for: MellonStore.self).url(forResource: MellonStore.modelName!, withExtension: self.extensionName) else {
 			return nil
 		}
 

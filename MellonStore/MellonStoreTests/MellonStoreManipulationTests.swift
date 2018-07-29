@@ -8,7 +8,6 @@
 
 import XCTest
 import CoreData
-@testable import MellonStore
 
 class MellonStoreManipulationTests: XCTestCase {
     

@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891E5D30EA05023AF729B937 /* Pods_MellonStoreSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C92570076766B4A7F48B8C5 /* Pods_MellonStoreSample.framework */; };
+		CA5776B9210DEA7F0017A871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5776B8210DEA7F0017A871 /* AppDelegate.swift */; };
+		CA5776BB210DEA7F0017A871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5776BA210DEA7F0017A871 /* ViewController.swift */; };
+		CA5776BE210DEA7F0017A871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5776BC210DEA7F0017A871 /* Main.storyboard */; };
+		CA5776C1210DEA7F0017A871 /* MellonStoreSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA5776BF210DEA7F0017A871 /* MellonStoreSample.xcdatamodeld */; };
+		CA5776C3210DEA7F0017A871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5776C2210DEA7F0017A871 /* Assets.xcassets */; };
+		CA5776C6210DEA7F0017A871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5776C4210DEA7F0017A871 /* LaunchScreen.storyboard */; };
+		CA5776CF210DEE560017A871 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5776CD210DEE550017A871 /* Fruit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28505E30E850506211F996E4 /* Pods-MellonStoreSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MellonStoreSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MellonStoreSample/Pods-MellonStoreSample.release.xcconfig"; sourceTree = "<group>"; };
+		4C92570076766B4A7F48B8C5 /* Pods_MellonStoreSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MellonStoreSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1566644DB1C2CA13539FC2 /* Pods-MellonStoreSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MellonStoreSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MellonStoreSample/Pods-MellonStoreSample.debug.xcconfig"; sourceTree = "<group>"; };
+		CA5776B5210DEA7F0017A871 /* MellonStoreSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MellonStoreSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5776B8210DEA7F0017A871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA5776BA210DEA7F0017A871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA5776BD210DEA7F0017A871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA5776C0210DEA7F0017A871 /* MellonStoreSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MellonStoreSample.xcdatamodel; sourceTree = "<group>"; };
+		CA5776C2210DEA7F0017A871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA5776C5210DEA7F0017A871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA5776C7210DEA7F0017A871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5776CD210DEE550017A871 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fruit.swift; path = "/Users/save-favret/Project/Github/MellonStore/MellonStoreSample/MellonStoreSample/Fruit.swift"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA5776B2210DEA7F0017A871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891E5D30EA05023AF729B937 /* Pods_MellonStoreSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8513E4E96DD39789D6208853 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F1566644DB1C2CA13539FC2 /* Pods-MellonStoreSample.debug.xcconfig */,
+				28505E30E850506211F996E4 /* Pods-MellonStoreSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA5776AC210DEA7F0017A871 = {
+			isa = PBXGroup;
+			children = (
+				CA5776B7210DEA7F0017A871 /* MellonStoreSample */,
+				CA5776B6210DEA7F0017A871 /* Products */,
+				8513E4E96DD39789D6208853 /* Pods */,
+				E2240CD0DA637630203EE9D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA5776B6210DEA7F0017A871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA5776B5210DEA7F0017A871 /* MellonStoreSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA5776B7210DEA7F0017A871 /* MellonStoreSample */ = {
+			isa = PBXGroup;
+			children = (
+				CA5776CD210DEE550017A871 /* Fruit.swift */,
+				CA5776B8210DEA7F0017A871 /* AppDelegate.swift */,
+				CA5776BA210DEA7F0017A871 /* ViewController.swift */,
+				CA5776BC210DEA7F0017A871 /* Main.storyboard */,
+				CA5776C2210DEA7F0017A871 /* Assets.xcassets */,
+				CA5776C4210DEA7F0017A871 /* LaunchScreen.storyboard */,
+				CA5776C7210DEA7F0017A871 /* Info.plist */,
+				CA5776BF210DEA7F0017A871 /* MellonStoreSample.xcdatamodeld */,
+			);
+			path = MellonStoreSample;
+			sourceTree = "<group>";
+		};
+		E2240CD0DA637630203EE9D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C92570076766B4A7F48B8C5 /* Pods_MellonStoreSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA5776B4210DEA7F0017A871 /* MellonStoreSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5776CA210DEA7F0017A871 /* Build configuration list for PBXNativeTarget "MellonStoreSample" */;
+			buildPhases = (
+				70A3A2DA19379523E8F76ADF /* [CP] Check Pods Manifest.lock */,
+				CA5776B1210DEA7F0017A871 /* Sources */,
+				CA5776B2210DEA7F0017A871 /* Frameworks */,
+				CA5776B3210DEA7F0017A871 /* Resources */,
+				9A7FD486AE166D8D8703EC6E /* [CP] Embed Pods Frameworks */,
+				6C375E4FC80B6F79CE1029DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MellonStoreSample;
+			productName = MellonStoreSample;
+			productReference = CA5776B5210DEA7F0017A871 /* MellonStoreSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA5776AD210DEA7F0017A871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mellonmellon;
+				TargetAttributes = {
+					CA5776B4210DEA7F0017A871 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CA5776B0210DEA7F0017A871 /* Build configuration list for PBXProject "MellonStoreSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA5776AC210DEA7F0017A871;
+			productRefGroup = CA5776B6210DEA7F0017A871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA5776B4210DEA7F0017A871 /* MellonStoreSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA5776B3210DEA7F0017A871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5776C6210DEA7F0017A871 /* LaunchScreen.storyboard in Resources */,
+				CA5776C3210DEA7F0017A871 /* Assets.xcassets in Resources */,
+				CA5776BE210DEA7F0017A871 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C375E4FC80B6F79CE1029DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MellonStoreSample/Pods-MellonStoreSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70A3A2DA19379523E8F76ADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MellonStoreSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A7FD486AE166D8D8703EC6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MellonStoreSample/Pods-MellonStoreSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MellonStore/MellonStore.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MellonStore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MellonStoreSample/Pods-MellonStoreSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA5776B1210DEA7F0017A871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5776BB210DEA7F0017A871 /* ViewController.swift in Sources */,
+				CA5776B9210DEA7F0017A871 /* AppDelegate.swift in Sources */,
+				CA5776CF210DEE560017A871 /* Fruit.swift in Sources */,
+				CA5776C1210DEA7F0017A871 /* MellonStoreSample.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA5776BC210DEA7F0017A871 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA5776BD210DEA7F0017A871 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA5776C4210DEA7F0017A871 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA5776C5210DEA7F0017A871 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA5776C8210DEA7F0017A871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA5776C9210DEA7F0017A871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA5776CB210DEA7F0017A871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1566644DB1C2CA13539FC2 /* Pods-MellonStoreSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2G2L39D56;
+				INFOPLIST_FILE = MellonStoreSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.mellonmellon.MellonStoreSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA5776CC210DEA7F0017A871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28505E30E850506211F996E4 /* Pods-MellonStoreSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2G2L39D56;
+				INFOPLIST_FILE = MellonStoreSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.mellonmellon.MellonStoreSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA5776B0210DEA7F0017A871 /* Build configuration list for PBXProject "MellonStoreSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5776C8210DEA7F0017A871 /* Debug */,
+				CA5776C9210DEA7F0017A871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5776CA210DEA7F0017A871 /* Build configuration list for PBXNativeTarget "MellonStoreSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5776CB210DEA7F0017A871 /* Debug */,
+				CA5776CC210DEA7F0017A871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA5776BF210DEA7F0017A871 /* MellonStoreSample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA5776C0210DEA7F0017A871 /* MellonStoreSample.xcdatamodel */,
+			);
+			currentVersion = CA5776C0210DEA7F0017A871 /* MellonStoreSample.xcdatamodel */;
+			path = MellonStoreSample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA5776AD210DEA7F0017A871 /* Project object */;
+}

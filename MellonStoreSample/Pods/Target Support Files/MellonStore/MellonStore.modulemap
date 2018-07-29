@@ -1,0 +1,6 @@
+framework module MellonStore {
+  umbrella header "MellonStore-umbrella.h"
+
+  export *
+  module * { export * }
+}

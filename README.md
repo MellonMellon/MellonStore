@@ -6,7 +6,7 @@
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage] (#usage)
+- [Usage](#usage)
 - [Features](#features)
 - [License](#license)
 

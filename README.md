@@ -3,10 +3,34 @@
 
 ---
 
+## How it work
+
+![Screenshot](https://github.com/MellonMellon/MellonStore/blob/master/figure-concurrency-basics.jpg)
+
+As you can see, there is three kind of NSManagedObjectContext.
+
+### private managed object context
+
+The private managed object context is a background context and it's linked to the persistent store coordinator. 
+Data is written locally hhen the private managed object context save it changes.
+
+It have one child which is the main managed object context.
+
+### main managed object context
+
+Child of the private managed object context. Associate to the main thread, it is use for reading operation.
+
+### child managed object context
+
+When you need to perform write, update or delete operations, it is a best practice to use a new context used for those operations.
+
+A child managed object context is create with transaction method. When an operation is done, the child is merged into the main managed object context.
+
+---
+
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Features](#features)
 - [License](#license)
 
@@ -60,10 +84,6 @@ Then, run the following command:
 ```bash
 $ pod install
 ```
-
-## Usage
-
-Coming soon
 
 ## Features
 

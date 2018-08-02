@@ -1,5 +1,5 @@
 # MellonStore
-100% swift. thread safe, easy writing and reading operation.
+100% swift. thread safe, easy writing and reading operation for CoreData.
 
 ---
 
